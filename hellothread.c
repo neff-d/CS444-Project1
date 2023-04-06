@@ -3,6 +3,7 @@
 #include <pthread.h>
 
 
+
 void *run_threads(void *thread_id){
     
     for(int i = 0; i < 5; i++){
@@ -11,7 +12,6 @@ void *run_threads(void *thread_id){
 
     return NULL;
 }
-
 
 
 
